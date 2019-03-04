@@ -5,7 +5,7 @@ import (
 	// "os"
 	// "time"
 
-	"http/musiccat/api"
+	"github.com/amukherj/musiccat/api"
 	// "http/musiccat/db"
 	// "http/musiccat/models"
 	// "github.com/gocraft/dbr"

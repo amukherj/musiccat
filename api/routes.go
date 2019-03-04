@@ -12,7 +12,7 @@ import (
 	"github.com/go-chi/cors"
 	"github.com/gocraft/dbr"
 
-	"http/musiccat/db"
+	"github.com/amukherj/musiccat/db"
 )
 
 // Use this type for the

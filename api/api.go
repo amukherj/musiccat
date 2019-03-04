@@ -9,7 +9,7 @@ import (
 	"github.com/go-chi/render"
 	"github.com/gocraft/dbr"
 
-	"http/musiccat/models"
+	"github.com/amukherj/musiccat/models"
 )
 
 func mustGetDBSession(ctx context.Context) *dbr.Session {

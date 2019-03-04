@@ -11,7 +11,7 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/render"
 
-	"http/musiccat/models"
+	"github.com/amukherj/musiccat/models"
 )
 
 func artisteCtx(next http.Handler) http.Handler {
