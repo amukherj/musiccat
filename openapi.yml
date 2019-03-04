@@ -1,0 +1,104 @@
+
+swagger: "2.0"
+
+info:
+  version: 1.0.0
+  title: MusicCat
+  description: An API for cataloging music records.
+
+schemes:
+  - http
+host: localhost:3333
+basepath: /
+
+## Documenting API URLs.
+##
+paths:
+  /artistes:
+    get:
+      summary:
+      description:
+      parameters:
+      responses:
+        '200':
+          schema:
+            type: array
+            items:
+              properties:
+                ID:
+                  type: integer
+                Name:
+                  type: string
+                ArtisteType:
+                  type: string
+                StartYear:
+                  type: integer
+                LastActiveYear:
+                  type: integer
+                CreatedAt:
+                  type: integer
+                UpdatedAt:
+                  type: integer
+    post:
+      summary:
+      description:
+      parameters:
+      responses:
+  /artistes/{artisteID}:   # {username} must be defined as a path param
+    get:
+      summary:
+      description:
+      parameters:
+      responses:
+    patch:
+      summary:
+      description:
+      parameters:
+      responses:
+    delete:
+      summary:
+      description:
+      parameters:
+      responses:
+  /artistes/{artisteID}/albums:   # {username} must be defined as a path param
+    get:
+      summary:
+      description:
+      parameters:
+      responses:
+    post:
+      summary:
+      description:
+      parameters:
+      responses:
+  /artistes/{artisteID}/albums/{albumID}:   # {username} must be defined as a path param
+    patch:
+      summary:
+      description:
+      parameters:
+      responses:
+    delete:
+      summary:
+      description:
+      parameters:
+      responses:
+  /artistes/{artisteID}/members:   # {username} must be defined as a path param
+    get:
+      summary:
+      description:
+      parameters:
+      responses:
+  /artistes/{artisteID}/acts:   # {username} must be defined as a path param
+    get:
+      summary:
+      description:
+      parameters:
+      responses:
+  /artistes/{artisteID}/acts/{actID}:   # {username} must be defined as a path param
+    post:
+      summary:
+      description:
+      parameters:
+      responses:
+
+
